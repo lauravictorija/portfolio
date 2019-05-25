@@ -233,6 +233,17 @@ header .intro-text {
 	left: 8px;
 	border: 1px solid rgba(255, 255, 255, 0.5);
 }
+
+.diverses{
+	margin-left: 700px;
+	color:gray;
+}
+
+.list-group{
+	margin-right: 700px;	
+}
+
+	
 #about p {
 	line-height: 24px;
 	margin: 15px 0 30px;
