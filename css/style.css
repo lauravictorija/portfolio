@@ -236,13 +236,17 @@ header .intro-text {
 
 .diverses{
 	margin-left: 700px;
-	color:gray;
+	color: gray;
+	text-align: left;
 }
 
 .list-group{
 	margin-right: 700px;	
 }
 
+.diverses-titel {
+	margin-left: 0px;
+}
 	
 #about p {
 	line-height: 24px;
@@ -326,12 +330,11 @@ ol.type li {
 	padding: 20px 0;
 }
 ol.type li a {
-	color: #999;
+	color: White;
 	font-weight: 500;
 	font-size: 14px;
 	padding: 12px 24px;
-	background: #eee;
-	border: 0;
+	background: green;
 	border-radius: 0;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -386,11 +389,11 @@ ol.type li a:hover {
 	display: block;
 	content: '';
 	position: absolute;
-	top: 6px;
-	right: 6px;
-	bottom: 6px;
-	left: 6px;
-	border: 1px solid rgba(255, 255, 255, 0.6);
+	top: 5px;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
+	border: 3px solid green;
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -512,6 +515,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 #contact .section-title p {
 	color: #777;
 }
+
+#contact .section-title h2 {
+	color: #777;
+}
+
 #contact form {
 	padding: 0;
 }
