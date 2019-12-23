@@ -20,7 +20,7 @@
 
 <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css"  href="css.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
@@ -47,6 +47,7 @@
         <li><a href="#galerie" class="page-scroll">Galerie</a></li>
         <li><a href="#team" class="page-scroll">Team</a></li>
         <li><a href="#kontakt" class="page-scroll">Kontakt</a></li>
+		<li><a href="#game" class="page-scroll">Game</a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -816,6 +817,7 @@
     <h2>Rufen Sie uns einfach an! <strong> 044 844 32 09</strong></h2>
   </div>
 </div>
+				
 <!-- Contact -->
 <div id="contact" class="text-center">
   <div class="container">
@@ -846,25 +848,33 @@
         </div>
         <div id="success"></div>
         <button type="submit" class="btn btn-custom btn-lg">Nachricht abschicken</button>
+		   <div id="back"></div>
+        <button type="button" class="btn btn-custom btn-lg" onclick="window.location.href='index.html'">Zurück zur Startseite</button>
       </form>
     </div>
   </div>
 </div>
 
-<div class="diverses-titel">
-<h1> Diverse Informationen</h1>
-<div class="diverses">
-<ul class="list-group">
-  <li class="list-group-item"> <span class="badge">13</span>
-    Personen welche auf dem Hof leben:
-  </li>
-  <li class="list-group-item"><span class="badge">4</span>
-    Davon Kinder</li>
-  <li class="list-group-item"><span class="badge">365</span>
-	Anzahl offene Ladentage</li>
-  <li class="list-group-item"><span class="badge">8112</span>
-	Standort Postleitzahl</li>
+			
+<div id="game" class="text-center">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Memory</h2><br>
+<div id="picbox">
+  <span id="boxbuttons">
+    <span class="button">
+      <span id="counter">0</span>
+      Clicks
+    </span>
+    <span class="button">
+      <a onclick="ResetGame();">Reset</a>
+    </span> 
+  </span>
+  <div id="boxcard"></div>
 </div>
+	</div>
+				
+<footer>
 	
 <div id="footer">
   <div class="container text-center">
@@ -892,6 +902,7 @@
   </div>
 </div>
 
+</footer>
 
 
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
